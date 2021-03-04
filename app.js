@@ -2,7 +2,7 @@ const username = "Gabriela";
 const backendurl = "http://denkleistung.de:5050";
 
 
-const app = Vue.createApp({ // imported in HTML // created in a big object
+const app = Vue.createApp({ // imported in HTML //
 
     mounted() {
 
@@ -169,32 +169,14 @@ const app = Vue.createApp({ // imported in HTML // created in a big object
         
     },
 
-            /*
-             /* find the interval for a game type (1-3)
-            // 10-99,100,99,1000,9999
-            //Math.floor cut the decimal after the integres , become more clear
-            this is an advanced task.
-
-            Use the regular /guess API with your own algorithm by calling it several times.
-
-            Tip:    start with the full interval and test the middle value by calling the backend.
-                    Do this until you get the data.Result === 0 response.
-
-            Pro-Tip:    It is a real brain-teaser (pain-in-the-****) to use nested call backs or promises.
-                        This is what async - await was invented for ;)
-            
-            By the way, don't worry that you may unintentionally launch a denial of service attack against the server, 
-            it should be able to handle tens of thousands request per second.
-
-            */
-
+          
   
 
         hackServer: function () {
 
         /*
 
-            this is an advanced task - but you will crack it!
+            
 
             Call the API and check the error messages, they will help you find the secrets.
         
